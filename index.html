@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=pt-PT>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+    <table>
+        <caption>Calculadora <b>Francisco Tavares</b></caption>
+        <tr>
+            <td  id="SCREEN" colspan="4">0</td>
+        </tr>
+        <tr>
+            <td id="N7" onclick="calOnClick('N7','7')" onmousedown="addStyle('N7');" onmouseup="remStyle('N7')" onmouseleave="remStyle('N7')">7</td>
+            <td id="N8" onclick="calOnClick('N8','8')" onmousedown="addStyle('N8');" onmouseup="remStyle('N8')" onmouseleave="remStyle('N8')">8</td>
+            <td id="N9" onclick="calOnClick('N9','9')" onmousedown="addStyle('N9');" onmouseup="remStyle('N9')" onmouseleave="remStyle('N9')">9</td>
+            <td id="ND" onclick="calOnClick('ND','/')" onmousedown="addStyle('ND');" onmouseup="remStyle('ND')" onmouseleave="remStyle('ND')">/</td>
+        </tr>
+        <tr>
+            <td id="N4" onclick="calOnClick('N4','4')" onmousedown="addStyle('N4');" onmouseup="remStyle('N4')" onmouseleave="remStyle('N4')">4</td>
+            <td id="N5" onclick="calOnClick('N5','5')" onmousedown="addStyle('N5');" onmouseup="remStyle('N5')" onmouseleave="remStyle('N5')">5</td>
+            <td id="N6" onclick="calOnClick('N6','6')" onmousedown="addStyle('N6');" onmouseup="remStyle('N6')" onmouseleave="remStyle('N6')">6</td>
+            <td id="NM" onclick="calOnClick('NM','*')" onmousedown="addStyle('NM');" onmouseup="remStyle('NM')" onmouseleave="remStyle('NM')">*</td>
+        </tr>
+        <tr>
+            <td id="N1" onclick="calOnClick('N1','1')" onmousedown="addStyle('N1');" onmouseup="remStyle('N1')" onmouseleave="remStyle('N1')">1</td>
+            <td id="N2" onclick="calOnClick('N2','2')" onmousedown="addStyle('N2');" onmouseup="remStyle('N2')" onmouseleave="remStyle('N2')">2</td>
+            <td id="N3" onclick="calOnClick('N3','3')" onmousedown="addStyle('N3');" onmouseup="remStyle('N3')" onmouseleave="remStyle('N3')">3</td>
+            <td id="NN" onclick="calOnClick('NN','-')" onmousedown="addStyle('NN');" onmouseup="remStyle('NN')" onmouseleave="remStyle('NN')">-</td>
+        </tr>
+        <tr>
+            <td id="N0" onclick="calOnClick('N0','0')" onmousedown="addStyle('N0');" onmouseup="remStyle('N0')" onmouseleave="remStyle('N0')">0</td>
+            <td id="NV" onclick="calOnClick('NV','.')" onmousedown="addStyle('NV');" onmouseup="remStyle('NV')" onmouseleave="remStyle('NV')">.</td>
+            <td id="NC" onclick="clearSCREEN()" onmousedown="addStyle('NC');" onmouseup="remStyle('NC')" onmouseleave="remStyle('NC')">C</td>
+            <td id="NP" onclick="calOnClick('NP','+')" onmousedown="addStyle('NP');" onmouseup="remStyle('NP')" onmouseleave="remStyle('NP')">+</td>
+        </tr>
+        <tr>
+            <td colspan="4" id="NQ" onclick="calculate()" onmousedown="addStyle('NQ');" onmouseup="remStyle('NQ')" onmouseleave="remStyle('NQ')">=</td>
+        </tr>
+    </table>
+    </body>
+</html>

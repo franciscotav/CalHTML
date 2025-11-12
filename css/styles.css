@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+th, td{
+    border-spacing: 5px;
+    border-radius: 15px;
+    text-align: center;
+
+    width:75px;
+    height:75px;
+    
+    color:rgb(255, 255, 255);
+    border-style:outset;
+    background-color:rgb(96, 88, 88);
+    font-size: 150%;
+
+    cursor:pointer;
+}
+
+#SCREEN{
+    table-layout: fixed;
+    max-width: 100px;
+    word-wrap: break-word;
+    white-space: normal;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color:rgb(28, 28, 28);
+    cursor:default; 
+    text-align: right;
+    font-size: 250%;
+}
+
+.clicked{
+    border-style:solid;
+    color:rgb(189, 189, 189);
+    background-color:rgb(76, 69, 84);
+}
